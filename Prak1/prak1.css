@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0e1121;
+    color: white;
+    text-align: center;
+    background-image: url(bc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    padding: 10px 20px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #15192c;
+}
+
+nav .nav-links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+
+nav .nav-links li {
+    display: inline;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 15px;
+    display: block;
+    margin-right: 20px;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Val.ttf);
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    font-family: myFont;
+    margin-top: 20px;
+    
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.title span {
+    color: #ff4654;
+}
+
+.agents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.agent {
+    text-align: center;
+}
+
+.agent img {
+    width: 125px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.agent p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer {
+    margin: 1;
+    padding: 5px 0;
+    background-color: #15192c;
+    color: white;
+    margin-top: 200px;
+}
+
+.foot a {
+    margin: 5px 0;
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
